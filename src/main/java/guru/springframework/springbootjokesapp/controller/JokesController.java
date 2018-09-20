@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class JokesController {
 
-    private JokesService jokesService;
+    private final JokesService jokesService;
 
     // Annotation is optional
     @Autowired
